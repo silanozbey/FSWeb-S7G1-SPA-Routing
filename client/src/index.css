@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f2f2f2;
+  background-color: #99bee0;
 }
 
 .movie-card {
@@ -14,6 +14,7 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  
 }
 
 .movie-director {
@@ -57,16 +58,30 @@ body {
   position: absolute;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 2px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  font-weight: 500;
+  background-color: rgb(168, 165, 165);
 }
 .save-button:hover {
   background-color: green;
   color: white;
+  cursor: pointer;
 }
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background-color: rgb(214, 221, 222);
+  text-decoration: none;
+}
+
+.home-button:hover {
+  background-color: #99bee0;
+  color: white;
+}
+
+.movie-list a {
+  text-decoration: none;
+  color: #222;
+  
 }
